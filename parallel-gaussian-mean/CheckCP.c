@@ -6,8 +6,8 @@ CheckCP.c - Check change points sequentially
 #include <stdlib.h>
 #include <float.h>
 #include <math.h>
-#include <gsl/gsl_sf_erf.h>
-#include <gsl/gsl_math.h>
+#include "gsl/gsl_sf_erf.h"
+#include "gsl/gsl_math.h"
 #include "changepoint.h"
 
 struct changepoint** DelCPNode();

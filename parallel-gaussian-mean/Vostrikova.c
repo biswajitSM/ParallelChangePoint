@@ -13,9 +13,9 @@
 #include <stdio.h>
 #include <math.h>
 #include <float.h>
-#include <gsl/gsl_math.h>
-#include <gsl/gsl_sf_gamma.h>
-#include <gsl/gsl_sf_erf.h>
+#include "gsl/gsl_math.h"
+#include "gsl/gsl_sf_gamma.h"
+#include "gsl/gsl_sf_erf.h"
 #include "changepoint.h"
 
 double Vostrikova(double x, double T, double alpha) {
